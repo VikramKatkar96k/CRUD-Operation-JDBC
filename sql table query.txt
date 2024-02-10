@@ -1,0 +1,7 @@
+CREATE TABLE Product (
+    code VARCHAR2(50),
+    name VARCHAR2(100),
+    price NUMBER(10, 2),
+    qty NUMBER,
+    CONSTRAINT PK_Product PRIMARY KEY (code)
+);
